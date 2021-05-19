@@ -14,7 +14,7 @@ function HomePage() {
                     <input value={inputText} onChange={e => setInputText(e.target.value)} className="py-2 text-sm text-white bg-gray-900 rounded-md pl-10 focus:outline-none focus:bg-white focus:text-gray-900"></input>
                 </div>
                 <button onClick={ (e: any) => { searchDocuments(inputText); } } className="bg-transparent hover:bg-blue text-white font-semibold hover:text-dark py-2 px-4 mx-5 border border-blue hover:border-transparent rounded">
-                    Search
+                    Search HELLO
                 </button>
                 <button onClick={ (e: any) => { addDocument(inputText); } } className="bg-transparent hover:bg-blue text-white font-semibold hover:text-dark py-2 px-4 mx-2 border border-blue hover:border-transparent rounded">
                     Add
